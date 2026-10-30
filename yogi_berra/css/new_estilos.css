@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "mifuente";
+    src: url('../fuentes/slackey.woff2') format('woff2');
+}
+h1{
+    font-family: mifuente;
+    text-align: center;
+    color:#5D59A5;
+    margin:0px;
+    text-shadow: 5px -5px 5px #421e1e;
+}
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7c7dc+0,85b2d3+100;Blue+Grey+3D */
+background: radial-gradient(ellipse at center,  #a7c7dc 0%,#85b2d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    margin-top: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 845px;
+    height: 1150px;
+    margin:0px auto;
+    background-image: url(../img/violeta.png);
+}
+#contenido{
+    width: 90%;
+    height: 100%;
+    margin:0px auto;
+    background-color: #b3cce6;
+}
+hr{
+    height: 2px;
+    background-image: url(../img/violeta.png);
+    border-color:none;
+    margin-bottom: 20px;
+}
+img{
+    padding: 5px;
+    border:1px solid black;
+}
+#yogi{
+    width: 100%;
+    background-color: white;
+    height: 150px;
+}
+#marco{
+    float:left;
+    padding:5px;
+
+    margin-left:5px;
+    margin-top:5px;
+}
+#yogi p{
+    text-align: justify;
+    font-size:0.95rem;
+    float:left;
+    width: 70%;
+    padding:0px;
+    margin-top:5px;
+    margin-left:10px;
+}
+.parrafo_1{
+    color:white;
+    background-color: #F28226;
+    border-style: dashed;
+    border-color:#ffff;
+    margin-left: 70px;
+}
+.parrafo_2{
+    color:black;
+    background-image: url(../img/verde.png);
+    border-radius: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
+.parrafo_3{
+    color:white;
+    background-color: #B45421;
+    border-style: none solid;
+    border-color: #ffff;
+    margin-left:130px
+}
+p[class="parrafo_1"]::first-letter{
+    color:black;
+}
+p[class^="parrafo"]{
+    width: 520px;
+    padding:5px;
+    font-size: 1.6rem;
+}

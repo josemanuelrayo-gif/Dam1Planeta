@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'mifuente';
+  src: url('../fuentes/slackey.woff2') format('woff2');
+}
+
+body {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+  /* safari4+,chrome */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /* ie10+ */
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
+  /* ie6-9 */
+  margin: 20px;
+  padding: 0px;
+}
+
+#contenedor {
+  width: 845px;
+  height: 1150px;
+  margin: 0px auto;
+  background-image: url(../img/violeta.png);
+}
+
+#contenedor h1 {
+  font-family: mifuente;
+  text-align: center;
+  color: #5D59A5;
+  text-shadow: 5px -5px 5px #FFFFFF;
+  margin: 0px;
+  line-height: 1.5em;
+}
+
+#contenido {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  background-color: #b3cce6;
+}
+
+hr {
+  height: 2px;
+  background-image: url(../img/violeta.png);
+  border-color: none;
+  margin-bottom: 20px;
+}
+
+#yogi {
+  width: 100%;
+  background-color: white;
+  height: 150px;
+  overflow: auto;
+}
+
+#yogi p {
+  float: left;
+  width: 78%;
+  text-align: justify;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+#marco {
+  float: left;
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.parrafo_1 {
+  color: white;
+  background-color: #F28226;
+  border-style: dashed;
+  border-color: #FFFFFF;
+  margin-left: 70px;
+}
+
+.parrafo_2 {
+  color: black;
+  background-image: url(../img/verde.png);
+  border-radius: 15px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.parrafo_3 {
+  color: white;
+  background-color: #B45421;
+  border-style: none solid;
+  border-color: #FFFFFF;
+  margin-left: 130px;
+}
+
+p[class="parrafo_1"]:first-letter {
+  color: black;
+}
+
+p[class^="parrafo"] {
+  width: 520px;
+  padding: 5px;
+  font-size: 1.6rem;
+}
